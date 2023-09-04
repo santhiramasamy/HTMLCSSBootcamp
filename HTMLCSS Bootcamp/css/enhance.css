@@ -1,0 +1,72 @@
+body {
+    background-color: black;
+}
+
+header {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(217, 246, 236);
+}
+
+.head {
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.image-box {
+    box-sizing: border-box;
+    height: 350px;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 50px;
+    margin: 40px 0px 30px 0px;
+}
+
+.btn {
+    box-sizing: border-box;
+    background-color: rgb(50, 161, 204);
+    text-align: center;
+    border-radius: 20px;
+    color: white;
+    width: 150px;
+    padding: 10px 20px;
+    font-size: 20px;
+    margin: 0px 690px;
+}
+
+.btn:focus {
+    color: blue;
+}  
+
+.btn:hover {
+    color: pink;
+}
+
+.btn:active {
+    color: red;
+}
+
+.inherit {
+    color: white;
+    box-sizing: border-box;
+}
+
+.first-letter {
+    font-family: 'Calibri';
+    font-weight: 500;
+    color: initial;
+    color: inherit;
+    border: 1px solid grey;
+    text-align: center;
+    padding: 50px 0px;
+    border-radius: 50px;
+}
+
+.first-letter::first-letter {
+    color: goldenrod;
+    font-weight: bolder;
+}
+
+.first-letter::after {
+    content: ' Academy';
+}
+

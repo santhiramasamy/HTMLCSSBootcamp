@@ -1,0 +1,523 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+:root {
+    --primary-color: rgb(235, 106, 0);
+    --secondary-color: rgb(247, 0, 55);
+    --third-color: rgb(220, 208, 208);
+}
+
+header {
+    background-color: rgb(51, 50, 50);
+    width: 100%;
+    display: inline-block;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+nav {
+    float: right;
+}
+
+ul {
+    float: right;
+    padding: 15px 20px;
+    padding-right: 90px;
+}
+
+li {
+    display: inline-block;
+    list-style-type: none;
+    padding-left: 15px;
+    color: white;
+}
+
+.opt:hover {
+    color: var(--primary-color);
+    cursor: pointer;
+}
+
+img {
+    position: relative;
+    width: 40px;
+    height: 35px;
+    float:left;
+    cursor: pointer;
+    padding-right: 10px;
+    border-radius: 50%;
+}
+
+.head {
+    font-size: 23px;
+    padding-right: 650px;
+    font-family: 'Gill Sans';
+    font-weight: bold;
+}
+
+a {
+    display: block;
+    height: 30px;
+    width: 150px;
+    background-color: var(--primary-color);
+    text-align: center;
+    padding-top: 18px;
+    color: white;
+    font-size: 140%;
+    line-height: 10px;
+    font-family: sans-serif;
+    border-radius: 10px;
+    text-decoration: none;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+#home {
+    display: flex;
+    background-color: antiquewhite;
+    height: 60%;
+    margin-top: -5px;
+    padding-bottom: 70px;
+}
+
+.hero-left, .hero-right {
+    display: inline-block;
+}
+
+.hero-left {
+    margin-top: 20px;
+    float: left;
+    width: 50%;
+    height: 100%;
+    padding: 20px;
+    margin-left: 70px;
+}
+
+.hero-left h1 {
+    padding-bottom: 30px;
+    font-size: 58px;
+}
+
+.hero-right {
+    float: right;
+    width: 40%;
+    height: 100%;
+}
+
+.hero-right img {
+    object-fit: cover;
+    margin-top: 20px;
+    margin-left: 50px;
+    width: 500px;
+    height: 580px;
+    border-radius: 0px;
+}
+
+.edu {
+    color: var(--primary-color);
+}
+
+.hero-left .desp {
+    padding-bottom: 30px;
+    font-size: 20px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 402px;
+    color: rgb(68, 67, 67);
+    font-weight: bold;
+    margin-top: 70px;
+}
+
+.people img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.people figure {
+    border-radius: 50%;
+    width: 45px;
+    aspect-ratio: 1;
+    display: inline-block;
+    border: 2px solid white;
+    margin: 0px -23px 0px 0px;
+    overflow: hidden;
+}
+
+#num {
+    color: var(--primary-color);
+    font-weight: bold;
+}
+
+#service {
+    background-color: black;
+    color: white;
+    padding: 40px 0px;
+}
+
+.exclusive {
+    text-align: center;
+}
+
+nobr {
+    padding-left: 700px;
+}
+
+.l1 {
+    color: rgb(248, 186, 199);
+}
+
+.l2 {
+    color: var(--secondary-color);
+}
+
+.serve {
+    color: var(--secondary-color);
+}
+
+.dashed-lines {
+    color: var(--secondary-color);
+    text-align: center;
+}
+
+.unleash {
+    font-size: 20px;
+    padding: 0px 250px;
+    text-align: center;
+    padding-top: 30px;
+}
+
+.cards-sec1 {
+    margin: 40px auto;
+    padding: 0px 100px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 40px 20px;
+    color: white;
+    width: 80%;
+}
+
+.card {
+    background-color: rgb(15, 17, 17);
+    box-shadow: 1px 1px 4px 4px #2c2c2c1a;
+}
+
+.fa-solid {
+    font-size: 30px;
+    padding: 20px 20px;
+    color: var(--secondary-color);
+}
+
+.head1 {
+    padding-left: 20px;
+    padding-bottom: 20px;
+}
+
+.para {
+    border-top: 2px solid black;
+    padding-left: 20px;
+    padding-top: 30px;
+    color: gray;
+}
+
+.read-more {
+    padding-top: 15px;
+    padding-left: 15px;
+    padding-bottom: 30px;
+}
+
+.icon {
+    height: 20px;
+    width: 20px;
+}
+
+.testimonials {
+    background-color: antiquewhite;
+}
+
+.testimonials h3 {
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 5px;
+}
+
+.testimonials nobr {
+    padding-left: 720px;
+}
+
+.bar1{
+    color: var(--secondary-color);
+}
+
+.bar2{
+    color: silver;
+}
+
+.cards {
+    background-color: white;
+    color: black;
+    padding-top: 30px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+.profile {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.rating .fa-solid {
+    font-size: 12px;
+    padding: 3px;
+    color: goldenrod;
+}
+
+.fa-regular {
+    font-size: 12px;
+    padding: 3px;
+    color: goldenrod;
+}
+
+.profile img {
+    height: 90px;
+    width: 90px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+.rating {
+    display: flex;
+    justify-content: center;
+}
+
+.cards-people {
+    width: 80%;
+    margin: 10px auto 100px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, auto);
+    gap: 120px 25px;
+}
+
+figcaption {
+    font-size: 20px;
+    padding-bottom: 10px;
+}
+
+.feedback {
+    padding: 20px 40px 30px 30px;
+    text-align: center;
+    font-size: 15px;
+    line-height: 25px;
+    color: gray;
+}
+
+.contact {
+    background-color: antiquewhite;
+    margin-top: -80px;
+    padding-bottom: 90px;
+}
+
+.contact-us {
+    background-color: white;
+    margin-left: 150px;
+    margin-right: 150px;
+    border-radius: 30px;
+    padding-left: 100px;
+    padding-bottom: 70px;
+    box-shadow: 10px 10px 10px 10px rgb(220, 217, 217);
+}
+
+.contact-us h2 {
+    font-size: 40px;
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+.contact-info {
+    margin-top: -330px;
+    margin-left: 800px;
+    background-color: rgb(39, 38, 38);
+    color: white;
+    padding-left: 40px;
+    padding-top: 30px;
+    padding-bottom: 50px;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+}
+
+.contact-info h5 {
+    padding-top: 10px;
+    padding-bottom: 30px;
+} 
+
+.street {
+    margin-top: -20px;
+}
+
+.contact-info .fa-solid {
+    font-size: 10px;
+    color: white;
+    padding-left: 0px;
+}
+
+.contact-para {
+    color: black;
+    text-shadow: 1px 0px 0px gray;
+    padding-bottom: 20px;
+}
+
+input {
+    padding-top: 20px;
+    padding-bottom: 5px;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    border-color: var(--third-color);
+}
+
+textarea {
+    padding-top: 20px;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    border-bottom: 2px solid var(--third-color);
+}
+
+::placeholder {
+    color: gray;
+}
+
+form button {
+    background-image: linear-gradient(to right, blue, blueviolet);
+    border: none;
+    border-radius: 30px;
+    margin-top: 45px;
+    text-align: center;
+    padding: 10px 0px;
+    color: white;
+    width: 47%;
+    font-weight: bolder;
+}
+
+.brands {
+    padding-left: 120px;
+}
+
+.fa-brands {
+    padding-top: 30px;
+    padding-left: 20px;
+}
+
+.footer {
+    background-color: black;
+    color: white;
+    display: flex;
+    padding-left: 170px;
+    padding-top: 20px;
+}
+
+.useful-links h3 {
+    padding-left: 40px;
+}
+
+.useful-links p {
+    padding-left: 40px;
+}
+
+.social-media .fa-brands{
+    font-size: 30px;
+    padding-top: 25px;
+    padding-left: 0px;
+    padding-right: 30px;
+}
+
+.useful-links li {
+    color: grey;
+}
+
+.list-item1, .list-item2 {
+    padding-top: 20px;
+    padding-bottom: 5px;
+}
+
+.list-item2 {
+    padding-left: 24px;
+}
+
+.list-item1 li {
+    padding-bottom: 5px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.list-item2 li {
+    padding-bottom: 5px;
+}
+
+.subscribe-para {
+    padding-top: 20px;
+    color: grey;
+    font-size: 15px;
+    padding-bottom: 10px;
+}
+
+.subscribe button {
+    text-align: center;
+    background-color: rgb(15, 17, 17);
+    color: gray;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    width: 70%;
+    border: none;
+}
+
+.subscribe .fa-solid {
+    background-color: var(--secondary-color);
+    color: white;
+    font-size: 20px;
+    margin-left: -5px;
+    height: 10px;
+    width: 20px;
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 27px;
+}
+
+.footer2 {
+    background-color: rgb(15, 17, 17);
+    color: gray;
+    padding: 20px 0px;
+    text-align: center;
+}
+
+.code-march {
+    color: var(--secondary-color);
+}
+
+.useful-head, .subscribe-head {
+    color: var(--secondary-color);
+}
+
+
+
+
+
+
+
+
+
+

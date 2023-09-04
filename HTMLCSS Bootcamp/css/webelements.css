@@ -1,0 +1,75 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+:root {
+    --primary-color: #002b23;
+    --secondary-color: rgb(248, 233, 205);
+    --text-color: white;
+    --spacing: 10px 15px;
+}
+
+h1 {
+    background-color: var(--primary-color);
+    color: var(--text-color);
+    padding: 5px 0px;
+    text-align: center;
+    padding: 20px;
+    margin: var(--spacing);
+    margin-bottom: 0px;
+}
+
+#css-props {
+    background-color: var(--secondary-color);
+    margin: var(--spacing);
+    padding: 20px 0px 20px 20px;
+    margin-top: 0px;
+}
+
+#prop {
+    padding-left: 40px;
+}
+
+li {
+    list-style-type: none;
+    padding: 10px;
+}
+
+li::before {
+    content: "🌹";
+    padding-right: 10px;
+}
+
+table, th, td {
+    border: 1px solid grey;
+    padding: 5px;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    table-layout: fixed;
+}
+
+td {
+    text-align: center;
+    height: 30px;
+}
+
+th {
+    height: 30px;
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+    font-weight: bold;
+}
+
+#css-tables {
+    margin: 50px 30px;
+}
+
+.copy {
+    background-image: linear-gradient(to right, blueviolet, violet, blueviolet);
+    text-align: center;
+    margin: 0px 30px;
+    padding: 10px;
+}

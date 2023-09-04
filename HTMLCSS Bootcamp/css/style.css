@@ -1,0 +1,26 @@
+.bg {
+    background-color: #F6BE00; /* background-color property specifies background color of an element (hexadecimal value) */
+    margin: 40px 25px 30px 25px; /* Margin property used to create space around elements */
+}
+
+.header{
+    font-size: 40px;
+    color: darkblue; /* The color property is used to set the color of the text (named color)*/
+    padding: 50px 50px 50px 20px; /* padding property used to define space between element content and element border */
+}
+
+.para{
+    color: rgb(255,255,255); /* font color (RGB color value) */
+    background-color: purple; /* named background color */
+    padding: 15px 50px 15px 10px;
+    font-size: 20px; /* font-size property sets the size of the text */
+    margin: 10px 25px 10px 25px;
+}
+.box{
+    background-color: rgb(64, 174, 210);
+    height: 200px; /* This property sets the height of an element */
+    width: 200px; /* This property sets the width of an element */
+    border: 2px solid black; /* border property used to specify the size, style, and color of the border of an element */
+    margin: 30px auto;
+}
+

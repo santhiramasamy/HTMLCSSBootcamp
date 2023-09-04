@@ -1,0 +1,32 @@
+.container {
+    background-color: rgb(3, 49, 3); /* background-color property specifies background color of an element (RGB color value) */
+    margin: 30px; /* Margin property used to create space around elements */
+    padding: 30px; /* padding property used to define space between element content and element border */
+}
+
+.inner {
+    background-color: wheat; /* named background color */
+    padding: 30px 10px; /* padding property used to define space between element content and element border */
+}
+
+.head {
+    font-size: 50px; /* font-size property sets the size of the text */
+}
+
+.para {
+    font-size: 20px;
+}
+
+.outer{
+    background-color: rgb(159, 163, 162);
+    margin: 30px 40px; /* Margin property used to create space around elements */
+}
+
+.heading{
+    font-size: 40px;
+}
+
+.paragraph{
+    font-size: 20px;
+}
+

@@ -1,0 +1,55 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+}
+
+header h1 {
+    background-color: #025464;
+    color: white;
+    text-align: center;
+    padding: 20px 0px;
+    font-size: 40px;
+    margin: 20px 10px 50px 10px;
+} 
+
+img {
+    width: 450px;
+    height: 350px;
+    margin-top: 20px;
+    border-radius: 20px;
+}
+
+.services-section {
+    margin-left: 60px;
+}
+
+.contact-section {
+    margin-left: 60px;
+}
+
+.about-section, .services-section, .contact-section {
+    background-color: white;
+    float: left;
+    text-align: center;
+    transform: scale(0.9, 0.8);
+    border-radius: 20px;
+    box-shadow: 10px 10px 10px 9px rgb(144, 137, 137);
+    transition: all 1s ease-in-out 0s;
+    animation: mymove 4s;
+}
+
+@keyframes mymove {
+    from {background-color: white;}
+    to {background-color: goldenrod;}
+}
+
+h2 {
+    padding: 20px 0px;
+}
+
+footer {
+    clear: left;
+    text-align: center;
+    padding-top: 50px;
+    font-size: 20px;
+}
